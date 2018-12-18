@@ -1,0 +1,30 @@
+DROP TABLE demo;
+
+CREATE TABLE people (
+  fname TEXT,
+  lname TEXT,
+  age INT,
+  gender TEXT,
+  vehicle_id INT
+);
+
+INSERT INTO people
+VALUES
+  ( "greg", "godreau", 33, "f", 1 ),
+  ( "jenny", "yee", 35, "m", 2 ),
+  ( "mere", "godreau", 36, "m", 3 );
+
+CREATE TABLE vehicles (
+  vehicle_id INT,
+  make text,
+  model text,
+  "year" int
+);
+
+INSERT INTO people
+VALUES
+  ( "greg", "godreau", 33, "f", 1 ),
+  ( "jenny", "yee", 35, "m", 2 ),
+  ( "mere", "godreau", 36, "m", 3 );
+
+
